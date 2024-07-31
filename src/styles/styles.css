@@ -1,0 +1,72 @@
+html {
+  background: #ece7d8;
+  color: #333;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  margin: auto
+}
+
+
+h2, h3 {
+  color: #167127;
+}
+
+
+main {
+  padding: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.topbar-wrapper {
+  width: 100%;
+  color: white;
+  background-color: #167127;
+}
+
+.topbar-container {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  min-width: 240px;
+  max-width: 1220px;
+  margin: auto;
+  padding: 15px;
+  font-family: Arial, sans-serif;
+}
+
+.topbar-text {
+  font-family: Arial, sans-serif;
+  font-weight: 600;
+  font-size: 30px;
+  text-align: center;
+}
+
+.topbar-links {
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.topbar-links a {
+  text-decoration: none;
+  color: inherit
+}
+
+
+.image-description {
+  font-style: italic;
+  font-size: 15px;
+  padding-bottom: 15px;
+  margin: 0px
+}
+
+.email {
+  visibility: collapse;
+}
+#not-creepy:checked ~ #legit:checked ~  .email{
+  visibility: visible;
+  padding-top: 10px
+}
